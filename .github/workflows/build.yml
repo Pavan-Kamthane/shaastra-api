@@ -1,0 +1,12 @@
+on:
+ push:
+   branches:
+      - main
+      
+ jobs:
+   build:
+     runs-on: 
+       steps: Checkout
+       uses: action/checkout@v3.3.0
+       -run: docker build -t shaatra-api .
+       -
