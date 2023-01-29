@@ -5,7 +5,7 @@ on:
       
  jobs:
    build:
-     runs-on: 
+     runs-on: windows-latest
        steps: Checkout
        uses: action/checkout@v3.3.0
        -run: docker build -t shaatra-api .
