@@ -9,4 +9,4 @@ on:
        steps: Checkout
        uses: action/checkout@v3.3.0
        -run: docker build -t shaatra-api .
-       -
+       
